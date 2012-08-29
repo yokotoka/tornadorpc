@@ -18,11 +18,11 @@ import distutils.core
 
 distutils.core.setup(
     name = "tornadorpc",
-    version = "0.1",
+    version = "0.2",
     packages = ["tornadorpc"],
-    author = "Josh Marshall",
-    author_email = "catchjosh@gmail.com",
-    url = "http://code.google.com/p/tornadorpc/",
+    author = "Josh Marshall, Yokotoka",
+    author_email = "yokotoka@gmail.com",
+    url = "http://github.com/yokotoka/tornadorpc",
     license = "http://www.apache.org/licenses/LICENSE-2.0",
     description = "TornadoRPC is a an implementation of both JSON-RPC " +
                   "and XML-RPC handlers for the Tornado framework.",
